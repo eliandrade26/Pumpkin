@@ -26,7 +26,10 @@ header {
   margin-left: 60%;
   gap: 50px;
   opacity: 0px;
+  
+  
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -77,4 +80,39 @@ p {
   margin-left: 12px;
   gap: 0px;
   opacity: 0px;
+}
+.container-button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-button button{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-align: center;
+  background-image: url('./assets/Rectangle\ 9.png');
+  background-color: transparent;
+  border: none;
+  padding: 29px 43px; /*Aumenta o elemento de dentro para fora*/
+  cursor: pointer;
+}
+.container-button button:hover{
+  opacity:0.8 ;
+  color: #ffffff;
+}
+.footer{
+  display: block;
+  margin: 50px auto;
+  background-image: url('./assets/Rectangle\ 9\ borda.png');
+  padding: 3px 43px;
+  background-color: transparent;
+  border: none;
+  width: 180px;
+height: 89px;
+color: #ffffff;
+
+
+
 }
