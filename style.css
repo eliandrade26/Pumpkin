@@ -112,7 +112,9 @@ p {
   width: 180px;
 height: 89px;
 color: #ffffff;
+}
 
-
-
+.footer:hover{
+  opacity:0.8 ;
+  color: #ee6e2f;
 }
