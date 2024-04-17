@@ -80,6 +80,7 @@ p {
   margin-left: 12px;
   gap: 0px;
   opacity: 0px;
+  animation: moveAbobora 2s infinite alternate ease-in-out;
 }
 .container-button{
   display: flex;
@@ -117,4 +118,13 @@ color: #ffffff;
 .footer:hover{
   opacity:0.8 ;
   color: #ee6e2f;
+}
+
+@keyframes moveAbobora{
+  from{
+transform: translate(-10%,-10%)rotate(15deg); /* determina o tipo de movimento recuando e subindo*/
+  }
+  to{
+    transform: translate(0,0)rotate(-15deg);
+  }
 }
